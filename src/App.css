@@ -1,0 +1,38 @@
+.app {
+    text-align: center;
+}
+
+.content {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group span {
+    margin-right: 10px;
+}
+
+input {
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+    padding: .5rem;
+    color: #666;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #666;
+    box-shadow: 0 0 0 .25rem #eee;
+}

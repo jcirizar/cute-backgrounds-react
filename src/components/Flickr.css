@@ -1,0 +1,20 @@
+.flickr {
+    text-align: center;
+    height: 100%;
+    background: rgba(255, 255, 255, .7) center center/cover no-repeat fixed;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12);
+    transition: .5s;
+    max-width: 90%;
+    width: 800px;
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.children-target {
+    background-color: rgba(255, 255, 255, .1);
+    padding: .6rem;
+    flex: 1;
+}
+
